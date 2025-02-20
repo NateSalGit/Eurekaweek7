@@ -1,0 +1,3 @@
+spring:
+  profiles: dev
+# Overrides for development environment.
