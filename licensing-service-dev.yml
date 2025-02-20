@@ -1,0 +1,3 @@
+spring:
+  profiles: dev
+# Any dev-specific overrides go here.
