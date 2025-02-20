@@ -1,0 +1,3 @@
+spring:
+  profiles: dev
+# You can override datasource settings here if needed
