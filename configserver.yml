@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yourusername/your-config-repo
+          cloneOnStart: true
+          # Optionally specify branch and searchPaths:
+          # branch: main
+          # searchPaths: config
