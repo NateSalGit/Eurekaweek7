@@ -1,1 +1,9 @@
+# eureka-server-dev.yml
+spring:
+  profiles: dev
+
+# Dev-specific Eureka overrides
+logging:
+  level:
+    root: DEBUG
 
