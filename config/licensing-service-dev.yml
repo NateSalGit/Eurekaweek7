@@ -1,3 +1,8 @@
+# licensing-service-dev.yml
 spring:
   profiles: dev
-# Any dev-specific overrides go here.
+
+# Dev-specific licensing-service properties
+logging:
+  level:
+    root: DEBUG
