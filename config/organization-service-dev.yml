@@ -1,3 +1,8 @@
+# organization-service-dev.yml
 spring:
   profiles: dev
-# Overrides for development environment.
+
+# Dev-specific organization-service overrides
+logging:
+  level:
+    root: DEBUG
