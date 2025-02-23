@@ -1,0 +1,4 @@
+# configserver-dev.yml
+spring:
+  profiles: dev
+
