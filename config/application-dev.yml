@@ -1,3 +1,8 @@
+# application-dev.yml
 spring:
   profiles: dev
-# You can override datasource settings here if needed
+
+# Any dev-specific global overrides go here (datasource, logging, etc.)
+logging:
+  level:
+    root: DEBUG
