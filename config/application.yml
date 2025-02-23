@@ -1,10 +1,13 @@
+# application.yml (global defaults)
 server:
-  port: 8080
+  port: 0  # Typically overridden by each service
+
 spring:
   datasource:
     url: jdbc:postgresql://database:5432/ostock_dev
     username: postgres
     password: postgres
+
 logging:
   level:
     root: INFO
