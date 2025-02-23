@@ -2,5 +2,3 @@
 spring:
   application:
     name: configserver
-
-# Additional configserver properties go here if needed
