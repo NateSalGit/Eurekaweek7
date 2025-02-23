@@ -1,8 +1,10 @@
+# organization-service.yml
 spring:
   application:
     name: organization-service
-# common organization service properties
+
+# Common organization service properties
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eurekaserver:8070/eureka/
+      defaultZone: http://eureka1:8070/eureka/,http://eureka2:8072/eureka/,http://eureka3:8073/eureka/
